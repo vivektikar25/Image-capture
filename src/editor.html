@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Capture</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./editor.css">
+    </head>
+    <body>
+		<div class="col-md-12 camera">
+			<video id="video" autoplay>Video stream not available.</video>
+		</div>
+  		<div class="col-md-12 pull-center">
+  			<button id="startbutton" class="btn btn-primary btn-md startButton">
+  				Take photo
+  			</button>
+  		</div>
+  		<hr>
+  		<div class="col-md-12  pull-center save-link">
+  			<a id="downloadLnk" onClick="downloadImage()" download="YourFileName.png">
+				Save Image
+			</a>
+  		</div>
+  		<div class="col-md-12 camera-picture">
+	  		 <canvas id="canvas">
+			 </canvas>
+		</div>
+  		<script type="text/javascript" src="./editor.js"></script>
+    </body>
+</html>

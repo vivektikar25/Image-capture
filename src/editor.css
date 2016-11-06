@@ -1,0 +1,26 @@
+body{
+	height: 100%;
+}
+
+.camera{
+	margin-top: 2%;
+	margin-left: 8%;
+}
+
+.startButton{
+	margin-top: 1%;
+	margin-left: 45%;
+}
+
+.camera-picture{
+	margin-top: 2%;
+	margin-left: 28%;
+}
+
+#downloadLnk{
+	cursor: pointer;
+}
+
+.save-link{
+	margin-left: 44%;
+}
