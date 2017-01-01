@@ -57,7 +57,7 @@ function takePicture(){
 	else{
 		clearphoto();
 	}
-	
+
 }
 
 function downloadImage(){
