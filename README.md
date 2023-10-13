@@ -7,9 +7,14 @@ Once project is running on browser you can say "click" in US ascent to automatic
 voice is recognised correctly.
 
 Getting Started  with project - 
-1)Clone project.                                                                                                                       
+
+1)Clone project.
+
 2)Install node.
+
 3)Install npm.
+
 4)In root directory of cloned project run command - $npm install
+
 5)In local server in same root directory and finally visit browser.
 
